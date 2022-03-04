@@ -1,0 +1,32 @@
+{
+  "name": "inventory-keeper",
+  "version": "1.0.0",
+  "description": "AS A manager at an internet retail company\r I WANT a back end for my e-commerce website that uses the latest technologies\r SO THAT my company can compete with other e-commerce companies",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cjsmith011/Inventory-keeper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^5.22.5"
+  },
+  "bugs": {
+    "url": "https://github.com/cjsmith011/Inventory-keeper/issues"
+  },
+  "homepage": "https://github.com/cjsmith011/Inventory-keeper#readme"
+}
